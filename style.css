@@ -1,0 +1,41 @@
+@font-face {
+    font-family: agent_orange, Helvetica, sans-serif;
+    src: url(fonts/agent_orange.TTF);
+}
+section {
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    border: 3px solid black;
+    font-size: 0;
+    border-radius: 10px;
+    font-family: agent_orange,Helvetica,sans-serif;
+}
+#calculator_whole {
+    background-color: darkblue;
+}
+#total_area {
+    width: 353px;
+    height: 120px;
+    border: 3px groove black;
+    margin: 22px;
+    border-radius: 10px;
+    background-color: #c3defe;
+}
+.clear_keys, .number_keys, .operator_keys {
+    width: 80px;
+    height: 75px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 20px;
+}
+#keypad {
+    text-align: center;
+}
+#clear_whole, #zero_key{
+    width: 166px;
+}
+.operator_keys {
+    background-color: deepskyblue;
+}
