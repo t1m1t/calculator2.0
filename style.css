@@ -10,8 +10,6 @@ section {
     font-size: 0;
     border-radius: 10px;
     font-family: agent_orange,Helvetica,sans-serif;
-}
-#calculator_whole {
     background-color: darkblue;
 }
 #total_area {
@@ -30,6 +28,10 @@ section {
     margin: 3px;
     font-size: 20px;
 }
+.clear_keys:hover, .number_keys:hover, .operator_keys:hover {
+    background-color: #f8bb00;
+}
+
 #keypad {
     text-align: center;
 }
