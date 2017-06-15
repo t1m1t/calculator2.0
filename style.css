@@ -12,7 +12,7 @@ section {
     font-family: agent_orange,Helvetica,sans-serif;
     background-color: darkblue;
 }
-#total_area {
+#display_area {
     width: 353px;
     height: 120px;
     border: 3px groove black;
