@@ -1,11 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
     $('button.number_keys').click(addNumber);
     $('button.decimal_key').click(addDecimal);
     $('button.operator_keys').click(addOperator);
     $('button.clear_whole').click(clearAllText);
     $('button.clear_recent').click(clearMostRecent);
     $('button.equal_key').click(equalButton);
-
+});
     var calcArray = [""];
     var i = 0;
     var results = null;
@@ -123,4 +123,4 @@ $(document).ready(function(){
         $('.display_area_text').html(doMath());
         calcArray[0] = results;
     }
-});
+
