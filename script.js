@@ -11,13 +11,12 @@ var calcArray = [""];
 var i = 0;
 var results = null;
 
-
-function addNumber(){
+function addNumber(input){
     calcArray[i] += $(this).html();
     $('.display_area_text').html(calcArray);
 }
 
-function addDecimal(){
+function addDecimal(input){
     var firstDecimal = calcArray[i].includes(".");
     if (firstDecimal === true) {
     } else {
@@ -26,7 +25,7 @@ function addDecimal(){
     }
 }
 
-function addOperator() {
+function addOperator(input) {
     if (calcArray.length === 1 && calcArray[0] === "") {
         return;
     }
@@ -45,10 +44,6 @@ function addOperator() {
     calcArray.push("");
     i += 2;
     $('.display_area_text').html(calcArray);
-
-    if (calcArray.length === 8){
-        return;
-    }
 }
 
 function clearAllText(){
