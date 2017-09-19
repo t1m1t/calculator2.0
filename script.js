@@ -11,12 +11,12 @@ var calcArray = [""];
 var i = 0;
 var results = null;
 
-function addNumber(input){
+function addNumber(){
     calcArray[i] += $(this).html();
     $('.display_area_text').html(calcArray);
 }
 
-function addDecimal(input){
+function addDecimal(){
     var firstDecimal = calcArray[i].includes(".");
     if (firstDecimal === true) {
     } else {
@@ -25,7 +25,7 @@ function addDecimal(input){
     }
 }
 
-function addOperator(input) {
+function addOperator() {
     if (calcArray.length === 1 && calcArray[0] === "") {
         return;
     }
